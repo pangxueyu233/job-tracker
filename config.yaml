@@ -1,0 +1,235 @@
+# ============================================================
+#  Job Tracker 配置  —— 按 Xiangyu Pan 的研究画像预设
+#  研究方向：computational cancer biology · microbiome / mycobiome ·
+#            metagenomics · single-cell · clonal hematopoiesis · epigenetics
+#  修改本文件后重新运行 python run.py 即可
+# ============================================================
+
+profile:
+  name: "Xiangyu Pan"
+  # 领域关键词：出现在标题/描述里会加分（权重可调）
+  topics:
+    - {kw: "computational biolog", w: 3}
+    - {kw: "bioinformatic", w: 3}
+    - {kw: "microbiome", w: 4}
+    - {kw: "metagenom", w: 4}
+    - {kw: "mycobiome", w: 5}
+    - {kw: "fung", w: 2}
+    - {kw: "host-microbe", w: 3}
+    - {kw: "host microbe", w: 3}
+    - {kw: "microbial", w: 2}
+    - {kw: "cancer genomic", w: 4}
+    - {kw: "cancer biolog", w: 2}
+    - {kw: "tumor evolution", w: 3}
+    - {kw: "tumour evolution", w: 3}
+    - {kw: "single-cell", w: 3}
+    - {kw: "single cell", w: 3}
+    - {kw: "clonal hematopoiesis", w: 5}
+    - {kw: "clonal haematopoiesis", w: 5}
+    - {kw: "hematologic", w: 1}
+    - {kw: "epigenet", w: 2}
+    - {kw: "genomic", w: 2}
+    - {kw: "multi-omic", w: 2}
+    - {kw: "multiomic", w: 2}
+    - {kw: "systems biolog", w: 2}
+    - {kw: "immunolog", w: 1}
+    - {kw: "inflammatory bowel", w: 3}
+    - {kw: "machine learning", w: 1}
+    - {kw: "spatial transcriptom", w: 2}
+    - {kw: "oncolog", w: 1}
+    - {kw: "whole-genome sequencing", w: 2}
+    - {kw: "whole genome sequencing", w: 2}
+    - {kw: "data scien", w: 1}
+
+  # 学术岗位：标题中必须含其中之一（否则视为非 faculty 岗）
+  faculty_title_words:
+    - "assistant professor"
+    - "tenure-track"
+    - "tenure track"
+    - "faculty"
+    - "principal investigator"
+    - "group leader"
+    - "investigator"
+    - "assistant member"
+    - "assistant/associate professor"
+    - "open rank"
+    - "professor"
+
+  # 公司岗位：标题中必须含其中之一
+  industry_title_words:
+    - "scientist"
+    - "computational biolog"
+    - "bioinformatic"
+    - "research scientist"
+    - "machine learning"
+    - "data scientist"
+    - "investigator"
+    - "fellow"
+    - "principal"
+    - "lead"
+    - "director"
+
+  # 标题里出现这些词直接排除（想看 postdoc 就把它删掉）
+  exclude_title_words:
+    - "postdoc"
+    - "post-doc"
+    - "postdoctoral"
+    - "lecturer"
+    - "adjunct"
+    - "visiting"
+    - "instructor"
+    - "teaching"
+    - "intern"
+    - "co-op"
+    - "clinical nurse"
+    - "sales"
+    - "account"
+    - "technician"
+    - "phd student"
+    - "graduate student"
+    - "manager, "
+    - "administrative"
+
+  # 公司岗位的最低领域得分（topics 权重之和）；学术岗位阈值单独设
+  min_score_industry: 3
+  min_score_faculty: 2
+  # 学术岗位只保留美国（按描述/地点文本的启发式判断；设为 false 保留全部）
+  faculty_us_only: true
+
+# ------------------------------------------------------------
+# 学术岗位来源
+# ------------------------------------------------------------
+academic_sources:
+  # Science Careers（Madgex）RSS，支持 keywords + countrycode
+  - type: madgex_rss
+    name: "Science Careers"
+    base: "https://jobs.sciencecareers.org/jobsrss/"
+    country: "US"
+    queries:
+      - "computational biology"
+      - "bioinformatics"
+      - "microbiome"
+      - "cancer genomics"
+      - "assistant professor genomics"
+      - "single-cell"
+
+  # Nature Careers（同为 Madgex 系统）
+  - type: madgex_rss
+    name: "Nature Careers"
+    base: "https://www.nature.com/naturecareers/jobsrss/"
+    country: "US"
+    queries:
+      - "computational biology"
+      - "bioinformatics"
+      - "microbiome"
+      - "cancer genomics"
+      - "tenure-track"
+
+  # HigherEdJobs 分类 RSS（catID 已核实）
+  - type: higheredjobs_rss
+    name: "HigherEdJobs"
+    # 该站有 Incapsula 反爬：分类 RSS 之间停 5 秒、顺序每天轮换可以正常拿到；
+    # 但详情页（details.cfm）有 JS 验证，脚本抓不到正文，所以 detail_budget 设 0 ——
+    # HigherEdJobs 的岗位只按"标题 + 分类名"打分，标题含 computational/bioinformatics/
+    # microbiome 等词的会保留，标题只写 "Asst Professor" 的会漏掉（这类通常也会出现在
+    # Science/Nature/AJO 上）。
+    feed_pause: 5
+    detail_pause: 6
+    detail_budget: 0
+    categories:
+      100: "Biology"
+      99: "Biochemistry and Molecular Biology"
+      137: "Medical Research"
+      287: "Biostatistics"
+      290: "Data Science"
+      102: "Computer Science"
+      113: "Biological and Biomedical Engineering"
+      221: "Public and Environmental Health"
+      108: "Other Science Faculty"
+      210: "Other Medicine Faculty"
+
+  # AcademicJobsOnline 全站 RSS（RSS 1.0/RDF），本地按关键词过滤
+  - type: ajo_rss
+    name: "AcademicJobsOnline"
+    url: "https://academicjobsonline.org/ajo?joblist-0-0-0-0----rss--"
+
+  # 社区共享表（Google Sheet 发布为 CSV 后填入链接即可；留空则跳过）
+  # 例：文件 → 共享 → 发布到网络 → CSV，得到 https://docs.google.com/spreadsheets/d/e/.../pub?output=csv
+  - type: gsheet_csv
+    name: "社区共享表"
+    url: ""
+    columns: {title: "Position", org: "Institution", url: "Link", location: "Location", deadline: "Deadline"}
+
+# ------------------------------------------------------------
+# 公司岗位来源（招聘系统公开接口）
+#   greenhouse: https://boards-api.greenhouse.io/v1/boards/<slug>/jobs?content=true
+#   lever:      https://api.lever.co/v0/postings/<slug>?mode=json
+#   ashby:      https://api.ashbyhq.com/posting-api/job-board/<slug>
+#   workday:    https://<tenant>.<wd>.myworkdayjobs.com/wday/cxs/<tenant>/<site>/jobs
+#   不确定某公司用什么系统：python discover.py <公司 careers 页面 URL>
+# ------------------------------------------------------------
+industry_sources:
+  # ---- Greenhouse（slug 已验证） ----
+  - {type: greenhouse, name: "Altos Labs",            slug: "altoslabs"}
+  - {type: greenhouse, name: "Arc Institute",         slug: "arcinstitute"}
+  - {type: greenhouse, name: "Chan Zuckerberg Initiative", slug: "chanzuckerberginitiative"}
+  - {type: greenhouse, name: "Isomorphic Labs",       slug: "isomorphiclabs"}
+  - {type: greenhouse, name: "Recursion",             slug: "recursionpharmaceuticals"}
+  - {type: greenhouse, name: "Calico",                slug: "calicolabs"}
+  - {type: greenhouse, name: "Generate Biomedicines", slug: "generatebiomedicines"}
+  - {type: greenhouse, name: "Lila Sciences",         slug: "lilasciences"}
+  - {type: greenhouse, name: "Ginkgo Bioworks",       slug: "ginkgobioworks"}
+  - {type: greenhouse, name: "Vedanta Biosciences",   slug: "vedantabiosciences"}
+
+  # ---- Ashby（已验证） ----
+  - {type: ashby, name: "insitro", slug: "insitro"}
+
+  # ---- Workday（tenant/site 已验证） ----
+  - type: workday
+    name: "Illumina"
+    host: "https://illumina.wd1.myworkdayjobs.com"
+    tenant: "illumina"
+    site: "illumina-careers"
+    queries: ["bioinformatics", "computational biology", "genomics scientist", "microbiome"]
+  - type: workday
+    name: "NVIDIA"
+    host: "https://nvidia.wd5.myworkdayjobs.com"
+    tenant: "nvidia"
+    site: "NVIDIAExternalCareerSite"
+    queries: ["genomics", "computational biology", "healthcare research scientist"]
+  - type: workday
+    name: "Pfizer"
+    host: "https://pfizer.wd1.myworkdayjobs.com"
+    tenant: "pfizer"
+    site: "PfizerCareers"
+    queries: ["computational biology", "bioinformatics", "genomics"]
+  - type: workday
+    name: "Novartis"
+    host: "https://novartis.wd3.myworkdayjobs.com"
+    tenant: "novartis"
+    site: "Novartis_Careers"
+    queries: ["computational biology", "bioinformatics", "genomics"]
+
+  # ---- 待确认（enabled: false，用 discover.py 找到正确 slug 后打开） ----
+  - {type: greenhouse, name: "Tempus",         slug: "tempus",         enabled: false}
+  - {type: greenhouse, name: "GRAIL",          slug: "grail",          enabled: false}
+  - {type: greenhouse, name: "Guardant Health",slug: "guardanthealth", enabled: false}
+  - {type: greenhouse, name: "10x Genomics",   slug: "10xgenomics",    enabled: false}
+  - {type: greenhouse, name: "Xaira Therapeutics", slug: "xaira",      enabled: false}
+  - {type: greenhouse, name: "Flagship Pioneering", slug: "flagshippioneering", enabled: false}
+  - {type: greenhouse, name: "Google DeepMind", slug: "deepmind",      enabled: false}
+  - {type: workday, name: "Genentech", host: "https://gene.wd5.myworkdayjobs.com", tenant: "gene", site: "ExternalSite", queries: ["computational biology"], enabled: false}
+  - {type: workday, name: "Regeneron", host: "https://regeneron.wd1.myworkdayjobs.com", tenant: "regeneron", site: "Regeneron", queries: ["computational biology", "genomics"], enabled: false}
+  - {type: workday, name: "AbbVie",    host: "https://abbvie.wd5.myworkdayjobs.com",    tenant: "abbvie",    site: "abbvie",    queries: ["computational biology", "genomics"], enabled: false}
+
+output:
+  data_file: "data/jobs.json"
+  html_file: "docs/index.html"
+  # 页面上"新增"高亮的天数
+  new_days: 7
+  # 多少天没再抓到就标记为"可能已关闭"
+  stale_days: 14
+  request_timeout: 30
+  # AJO 岗位每次最多补抓多少个详情页（拿地点/截止日期）
+  ajo_detail_budget: 40
+  user_agent: "Mozilla/5.0 (personal job-tracker; low volume, once per day)"

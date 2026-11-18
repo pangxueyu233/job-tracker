@@ -43,7 +43,7 @@
    "level": "Tenure-track / Asst Prof",
    "id": "8ce026817f78",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "US"
@@ -90,7 +90,7 @@
    "level": "Faculty / PI",
    "id": "9dc5c01f2ff3",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$150,000-$160,000",
    "region": "US"
@@ -162,7 +162,7 @@
    "level": "Faculty / PI",
    "id": "fb12b5326500",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "US"
@@ -330,7 +330,7 @@
    "level": "Tenure-track / Asst Prof",
    "id": "de46a4d94ae8",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "US"
@@ -380,7 +380,8 @@
    "last_seen": "2026-11-03",
    "status": "",
    "salary": "$465,091 - $560,043",
-   "region": "US"
+   "region": "US",
+   "closed": true
   },
   "4189019dd668": {
    "title": "Assistant/Associate Professor of Biostatistics and Data Science",
@@ -1264,7 +1265,7 @@
    "level": "Senior / Lead",
    "id": "dfdfc42db281",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$305,800- $392,100",
    "region": "US",
@@ -1293,7 +1294,7 @@
    "level": "Senior / Lead",
    "id": "bae5d342f2c7",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$337,700- $432,900",
    "region": "US",
@@ -1319,7 +1320,7 @@
    "level": "Scientist",
    "id": "537daea661b7",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$ 170,000 - $ 247,000",
    "region": "US",
@@ -1399,7 +1400,7 @@
    "level": "Scientist",
    "id": "1459e0a1a4c7",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "US",
@@ -1458,7 +1459,7 @@
    "level": "Senior / Lead",
    "id": "f3d6d0eee942",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$380,000-$420,000",
    "region": "US",
@@ -1483,7 +1484,7 @@
    "level": "Senior / Lead",
    "id": "bbf61f9169df",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$147,500 - $181,500",
    "region": "US",
@@ -1572,7 +1573,7 @@
    "level": "Scientist",
    "id": "50c2906fb2ca",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$121,250 to $159,500",
    "region": "US",
@@ -1601,7 +1602,7 @@
    "level": "Scientist",
    "id": "d176bc286246",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$128,500 to $182,500",
    "region": "US",
@@ -1629,7 +1630,7 @@
    "level": "Senior / Lead",
    "id": "f65a53313495",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$263,500 to $325,500",
    "region": "US",
@@ -1827,7 +1828,7 @@
    "level": "Senior / Lead",
    "id": "1522c19c3186",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "US",
@@ -1854,7 +1855,7 @@
    "level": "Scientist",
    "id": "33ab3684e31d",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "非美国",
@@ -1880,7 +1881,7 @@
    "level": "Scientist",
    "id": "750502d11671",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "",
    "region": "非美国",
@@ -2168,7 +2169,7 @@
    "level": "Scientist",
    "id": "02f40c74307a",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$176,000",
    "region": "US",
@@ -2222,7 +2223,7 @@
    "level": "Scientist",
    "id": "9471eed9d773",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$176,000",
    "region": "US",
@@ -2275,7 +2276,7 @@
    "level": "Senior / Lead",
    "id": "3bae5bd41e54",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$204,000",
    "region": "US",
@@ -2331,7 +2332,7 @@
    "level": "Scientist",
    "id": "709a35beb89d",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$228,000",
    "region": "US",
@@ -2358,7 +2359,7 @@
    "level": "Senior",
    "id": "de754e6cbfab",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$144,000",
    "region": "US",
@@ -2384,7 +2385,7 @@
    "level": "Senior",
    "id": "28e1e5b4ebc0",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$268,000",
    "region": "US",
@@ -2410,7 +2411,7 @@
    "level": "Senior",
    "id": "9c8753650ea9",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$268,000",
    "region": "US",
@@ -2436,7 +2437,7 @@
    "level": "Senior / Lead",
    "id": "3c1b697769bb",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$268,000",
    "region": "US",
@@ -2464,7 +2465,7 @@
    "level": "Senior / Lead",
    "id": "8e26590eb055",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$268,000",
    "region": "US",
@@ -2491,7 +2492,7 @@
    "level": "Scientist",
    "id": "7961bde2ef20",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "",
    "salary": "$130,600 – $183,800",
    "region": "US",
@@ -4620,7 +4621,8 @@
    "id": "7f9b23cb6e3e",
    "first_seen": "2026-10-05",
    "last_seen": "2026-11-03",
-   "status": ""
+   "status": "",
+   "closed": true
   },
   "477b82079d2d": {
    "title": "Assistant Professor Faculty Position in the Department of Mathematics and Statistics, with a focus on Advancing Brain and Cognitive Health",
@@ -4790,7 +4792,7 @@
    "category": "产品/市场/商务",
    "id": "cbe2f8ef8750",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "341167e2a28b": {
@@ -5158,7 +5160,7 @@
    "category": "研发·生物/湿实验",
    "id": "2bfff851edba",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "d1e54970d6eb": {
@@ -5317,7 +5319,7 @@
    "category": "临床/转化/医学",
    "id": "e2dce5e64a1d",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "8b1eb843012c": {
@@ -5545,7 +5547,7 @@
    "category": "研发·计算/生信/ML",
    "id": "0510abcf21c6",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "ea57e4948146": {
@@ -6171,7 +6173,7 @@
    "category": "研发·计算/生信/ML",
    "id": "fe69ba1c9f5c",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "e1083688a5c4": {
@@ -6197,7 +6199,7 @@
    "category": "研发·计算/生信/ML",
    "id": "e1083688a5c4",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "4896b872fe7a": {
@@ -6422,7 +6424,7 @@
    "region": "US",
    "id": "66732aa998b8",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "1d73c957d288": {
@@ -6446,7 +6448,7 @@
    "region": "US",
    "id": "1d73c957d288",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "ed517b09df0c": {
@@ -6522,7 +6524,7 @@
    "region": "US",
    "id": "117071396641",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "d1e706709d8d": {
@@ -6545,7 +6547,7 @@
    "region": "US",
    "id": "d1e706709d8d",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "4d822ef97d7f": {
@@ -6593,7 +6595,7 @@
    "region": "未知",
    "id": "7790c0544e0a",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "41286b9fcd12": {
@@ -6617,7 +6619,7 @@
    "region": "未知",
    "id": "41286b9fcd12",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b193e17543cd": {
@@ -6641,7 +6643,7 @@
    "region": "未知",
    "id": "b193e17543cd",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "d8ed2ef5f603": {
@@ -6665,7 +6667,7 @@
    "region": "US",
    "id": "d8ed2ef5f603",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "1f3974fb07a3": {
@@ -6742,7 +6744,7 @@
    "region": "US",
    "id": "f9ed1d6031ef",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "9b2641097e4f": {
@@ -6766,7 +6768,7 @@
    "region": "US",
    "id": "9b2641097e4f",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "6ef5495382b5": {
@@ -6790,7 +6792,7 @@
    "region": "US",
    "id": "6ef5495382b5",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "9452219b1203": {
@@ -6837,7 +6839,7 @@
    "region": "US",
    "id": "98f905fa3cd2",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "72f825d15ebf": {
@@ -6864,7 +6866,7 @@
    "category": "药物设计/化学/蛋白",
    "id": "72f825d15ebf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "5ca434ae13b9": {
@@ -6917,7 +6919,7 @@
    "category": "药物设计/化学/蛋白",
    "id": "b7ea91f9a2b6",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "3d3e12421d41": {
@@ -6971,7 +6973,7 @@
    "region": "US",
    "id": "edd802d7d790",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "a7ba67e37a39": {
@@ -6994,7 +6996,7 @@
    "region": "US",
    "id": "a7ba67e37a39",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "7a460ea5de5b": {
@@ -7019,7 +7021,7 @@
    "category": "研发·计算/生信/ML",
    "id": "7a460ea5de5b",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b668e0e6e457": {
@@ -7067,7 +7069,7 @@
    "region": "US",
    "id": "e58c882340c3",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "80f1e72eda05": {
@@ -7093,7 +7095,7 @@
    "category": "研发·计算/生信/ML",
    "id": "80f1e72eda05",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "8e7ba036577b": {
@@ -7171,7 +7173,7 @@
    "region": "US",
    "id": "90640d423a00",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "1554ae09a71b": {
@@ -7194,7 +7196,7 @@
    "region": "US",
    "id": "1554ae09a71b",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "00e60851af1a": {
@@ -7223,7 +7225,7 @@
    "category": "研发·生物/湿实验",
    "id": "00e60851af1a",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "8060153120b2": {
@@ -7247,7 +7249,7 @@
    "region": "US",
    "id": "8060153120b2",
    "first_seen": "2026-10-25",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "26d7478f1fbc": {
@@ -7270,7 +7272,7 @@
    "region": "US",
    "id": "26d7478f1fbc",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "e5dc57c0e566": {
@@ -7293,7 +7295,7 @@
    "region": "US",
    "id": "e5dc57c0e566",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "835d48efd535": {
@@ -7318,7 +7320,7 @@
    "category": "软件/数据工程",
    "id": "835d48efd535",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "646ef97fc766": {
@@ -7341,7 +7343,7 @@
    "region": "US",
    "id": "646ef97fc766",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "c6cea2fb03d3": {
@@ -7364,7 +7366,7 @@
    "region": "US",
    "id": "c6cea2fb03d3",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "c40938238f7e": {
@@ -7388,7 +7390,7 @@
    "region": "未知",
    "id": "c40938238f7e",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "dfc009025569": {
@@ -7411,7 +7413,7 @@
    "region": "US",
    "id": "dfc009025569",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "71dc8380fc57": {
@@ -7457,7 +7459,7 @@
    "region": "US",
    "id": "67fdb8b424c4",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "e5c9dc52c735": {
@@ -7484,7 +7486,7 @@
    "category": "研发·计算/生信/ML",
    "id": "e5c9dc52c735",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "fc3c80d5d960": {
@@ -7507,7 +7509,7 @@
    "region": "US",
    "id": "fc3c80d5d960",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "a8472ad03ff3": {
@@ -7553,7 +7555,7 @@
    "region": "US",
    "id": "a03ed77ec3a9",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "6b7b98ac95d0": {
@@ -7561,7 +7563,7 @@
    "org": "University of Maryland Center for Environmental Science (UMCES)",
    "location": "Cambridge, MD",
    "url": "https://www.higheredjobs.com/details.cfm?JobCode=179601266",
-   "description": "[Biochemistry and Molecular Biology] University of Maryland Center for Environmental Science (UMCES) (Cambridge, MD)",
+   "description": "[Biology] University of Maryland Center for Environmental Science (UMCES) (Cambridge, MD)",
    "posted": "2026-10-28",
    "deadline": "",
    "source": "HigherEdJobs",
@@ -7576,7 +7578,7 @@
    "region": "US",
    "id": "6b7b98ac95d0",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "318182106736": {
@@ -7680,7 +7682,7 @@
    "region": "US",
    "id": "2714f30cda60",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "873a96431af5": {
@@ -7703,7 +7705,7 @@
    "region": "US",
    "id": "873a96431af5",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "26f054bf83a7": {
@@ -7753,7 +7755,7 @@
    "region": "US",
    "id": "d1e2f7e10354",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b579f4e1f29f": {
@@ -7779,7 +7781,7 @@
    "region": "未知",
    "id": "b579f4e1f29f",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b6245344ca87": {
@@ -7804,7 +7806,7 @@
    "region": "未知",
    "id": "b6245344ca87",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "e336a442b7fc": {
@@ -7828,7 +7830,7 @@
    "region": "US",
    "id": "e336a442b7fc",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b15eafb9d0d8": {
@@ -7904,7 +7906,7 @@
    "category": "临床/转化/医学",
    "id": "6cb65c7bdf45",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "7e05f743145e": {
@@ -7927,7 +7929,7 @@
    "region": "US",
    "id": "7e05f743145e",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "3ecb3fc4eb75": {
@@ -8000,7 +8002,7 @@
    "region": "US",
    "id": "9c0e68d2a257",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "8cc64d8b03e7": {
@@ -8025,7 +8027,7 @@
    "region": "未知",
    "id": "8cc64d8b03e7",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "29cc57fa4f53": {
@@ -8048,7 +8050,7 @@
    "region": "US",
    "id": "29cc57fa4f53",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "8947729de532": {
@@ -8071,7 +8073,7 @@
    "region": "US",
    "id": "8947729de532",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "072e0a6d24a9": {
@@ -8098,7 +8100,7 @@
    "region": "未知",
    "id": "072e0a6d24a9",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "31129cbc9e0f": {
@@ -8125,7 +8127,7 @@
    "category": "研发·生物/湿实验",
    "id": "31129cbc9e0f",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b4be104f506c": {
@@ -8174,7 +8176,7 @@
    "category": "临床/转化/医学",
    "id": "45fde3810cac",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "6a5d65a1c50a": {
@@ -8282,7 +8284,7 @@
    "category": "项目/运营/管理",
    "id": "7630b166c47d",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "91d6d9d33e0d": {
@@ -8307,7 +8309,7 @@
    "category": "研发·计算/生信/ML",
    "id": "91d6d9d33e0d",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "f50e137cda43": {
@@ -8353,7 +8355,7 @@
    "region": "US",
    "id": "cac67679622f",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "a65d66d6891d": {
@@ -8378,7 +8380,7 @@
    "region": "US",
    "id": "a65d66d6891d",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "e6d6120310a3": {
@@ -8401,7 +8403,7 @@
    "region": "US",
    "id": "e6d6120310a3",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "536c65c76e05": {
@@ -8424,7 +8426,7 @@
    "region": "未知",
    "id": "536c65c76e05",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "6a1aca3c029a": {
@@ -8477,7 +8479,7 @@
    "category": "临床/转化/医学",
    "id": "228458b40a53",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "5f6dbdd86f85": {
@@ -8531,7 +8533,7 @@
    "region": "US",
    "id": "1f6a6ee51037",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "5651f7da97ff": {
@@ -8555,7 +8557,7 @@
    "region": "未知",
    "id": "5651f7da97ff",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "c67efd271a06": {
@@ -8579,7 +8581,7 @@
    "region": "未知",
    "id": "c67efd271a06",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "f5463093ae8e": {
@@ -8603,7 +8605,7 @@
    "region": "未知",
    "id": "f5463093ae8e",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "803511c96b72": {
@@ -8676,7 +8678,7 @@
    "region": "US",
    "id": "e6fedd81d7a2",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "10dfa9f8ea26": {
@@ -8703,7 +8705,7 @@
    "category": "临床/转化/医学",
    "id": "10dfa9f8ea26",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "3ba87611a91b": {
@@ -8778,7 +8780,7 @@
    "region": "US",
    "id": "b53eff37e712",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "71d56cf0f463": {
@@ -8801,7 +8803,7 @@
    "region": "US",
    "id": "71d56cf0f463",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "04dd17dd4429": {
@@ -8824,7 +8826,7 @@
    "region": "US",
    "id": "04dd17dd4429",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b586e70021f7": {
@@ -8847,7 +8849,7 @@
    "region": "US",
    "id": "b586e70021f7",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "45e979c8fc91": {
@@ -8921,7 +8923,7 @@
    "region": "US",
    "id": "5c3a0989f649",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "009bd2ddc9b7": {
@@ -8945,7 +8947,7 @@
    "region": "未知",
    "id": "009bd2ddc9b7",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "76ff4fc63480": {
@@ -8972,7 +8974,7 @@
    "category": "研发·计算/生信/ML",
    "id": "76ff4fc63480",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "f9a3411c6fe3": {
@@ -8998,7 +9000,7 @@
    "category": "研发·计算/生信/ML",
    "id": "f9a3411c6fe3",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "b0d90f99bbe3": {
@@ -9021,7 +9023,7 @@
    "region": "US",
    "id": "b0d90f99bbe3",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "312b058cd793": {
@@ -9044,7 +9046,7 @@
    "region": "US",
    "id": "312b058cd793",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": ""
   },
   "a793726a7dc5": {
@@ -9067,7 +9069,54 @@
    "region": "US",
    "id": "a793726a7dc5",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "status": ""
+  },
+  "2245eede5e31": {
+   "title": "Open Rank Faculty Position in Biostatistics, Data Science & Epidemiology",
+   "org": "Augusta University",
+   "location": "Augusta, GA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179618998",
+   "description": "[Biostatistics] Augusta University (Augusta, GA)",
+   "posted": "2026-11-17",
+   "deadline": "",
+   "source": "HigherEdJobs",
+   "kind": "faculty",
+   "role": "faculty",
+   "score": 2,
+   "hits": [
+    "data scien"
+   ],
+   "level": "Faculty / PI",
+   "salary": "",
+   "region": "US",
+   "id": "2245eede5e31",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "status": ""
+  },
+  "3df58609b61b": {
+   "title": "Assistant Professor - Career Track Faculty Position",
+   "org": "Duke — Biostatistics & Bioinformatics",
+   "location": "Durham, North Carolina 27705, United States of America",
+   "url": "https://academicjobsonline.org/ajo/Duke/Biostatistics%20%26%20Bioinformatics/33474",
+   "description": "[Non tenure-track faculty] Career Track Faculty Position Clinical Research Informatics and Technology The Duke Clinical Research Institute (DCRI), in partnership with Duke University and the Department of Biostatistics and Bioinformatics (B&B), invites applications for a career track (non-tenure) faculty position in clinical research informatics and technology. The successful candidate will have a primary or secondary home in the Data Science & Biostatistics Therapeutic Area and the Division of Translational Biomedical Informatics (TBI), with the possibility of a joint appointment in a clinical or other academic department, as appropriate. This recruitment is part of an ongoing investment in the science and infrastructure needed to generate reliable evidence across institutions, data sources, and clinical settings. We seek a scholar who is excited by the opportunity to shape ambitious, large-scale research with colleagues across DCRI, Duke, health systems, and external research networks—and whose collaborative work strengthens and is strengthened by a distinctive independent program of research. Strong candidates will demonstrate a commitment to innovation and leadership of collaborative clinical research that is synergistic with their independent research. The opportunity: DCRI offers an environment in which team science can be a central pathway to scholarly leadership and career advancement. Faculty work alongside clinical investigators, quantitative scientists, informaticians, research networks, and",
+   "posted": "2026-11-18",
+   "deadline": "2026-11-18",
+   "source": "AcademicJobsOnline",
+   "kind": "faculty",
+   "role": "faculty",
+   "score": 4,
+   "hits": [
+    "bioinformatic",
+    "data scien"
+   ],
+   "level": "Tenure-track / Asst Prof",
+   "salary": "",
+   "region": "US",
+   "id": "3df58609b61b",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "status": ""
   }
  },
@@ -9377,6 +9426,12 @@
    "fetched": 122,
    "new": 3,
    "total": 357
+  },
+  {
+   "at": "2026-11-18T19:27",
+   "fetched": 108,
+   "new": 2,
+   "total": 359
   }
  ]
 }
